@@ -32,6 +32,6 @@ items_agg.to_csv("items_by_order.csv", index=False)
 payments_agg.to_csv("payments_by_order.csv", index=False)
 
 from sqlalchemy import create_engine
-engine = create_engine('mysql+pymysql://root:thousand@localhost/order_reconciliations')
+engine = create_engine('mysql+pymysql://root:password@localhost/order_reconciliations')
 items_agg.to_sql('items_by_order', engine, if_exists='replace', index=False)
 payments_agg.to_sql('payments_by_order', engine, if_exists='replace', index=False)
