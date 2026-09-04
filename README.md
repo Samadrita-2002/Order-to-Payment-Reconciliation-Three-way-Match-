@@ -29,13 +29,14 @@ For example: 'Low'→ |variance| ≤ $10
 
 The business/finance team can then investigate the highest-value discrepancies first. This makes the reconciliation process more efficient by focusing resources on exceptions with the greatest potential financial impact.
 
-## Dashboard
-[Dashboard Overview](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/Dashboard_Overview.png)
-[Dashboard Heatmap](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/Dashboard_Heatmap.png)
+## Screenshots
+[Dashboard](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/Dashboard.png)
 
 ## Files
 - The cleaned dataset could not be uploaded due to its large file size
-- [Python: data cleaning, RFM scoring, cohort construction](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/rfm_cohort_analysis.py)
-- [SQL: analysis queries](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/rfm_cohort_queries.sql)
-- [Queries outputs and pivot table](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/SQL%20query%20results_and_pivot%20table.xlsx)
-- [Power BI file](https://github.com/Samadrita-2002/Customer-RFM-Segmentation-and-Cohort-Retention-Analysis/blob/main/RFM_Cohort_Analysis_Dashboard.pdf)
+- [Python: data cleaning, order-level aggregation](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/Order_aggregation.py)
+- [Items by order](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/items_by_order.csv)
+- [Payments by order](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/payments_by_order.csv)
+- [SQL: analysis queries](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/order_reconciliation_analysis.sql)
+- [Queries outputs and pivot table](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/SQL%20results%20and%20pivot%20tables.xlsx)
+- [Power BI file](https://github.com/Samadrita-2002/Order-to-Payment-Reconciliation-Three-way-Match-/blob/main/Order%20Reconciliation%20Analysis%20Dashboard.pdf)
